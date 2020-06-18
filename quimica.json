@@ -1,0 +1,575 @@
+	{
+		"nome": "Algoritmos e Prog. de Computadores - Q",
+		"codigo": "FACOM39017",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [27, 33, 5, 11],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Algoritmos e Prog. de Computadores - V",
+		"codigo": "FACOM39017",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [19, 25, 16, 22],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+
+	 {
+		"nome": "Cálculo Diferencial e Integral I [Q]",
+		"codigo": "FAMAT39003-Q",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [14,20,28,34,17,23],
+		"cargaHorariaTeorica": 90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}	
+
+	{
+		"nome": "Desenho Técnico [Q]",
+		"codigo": "FEMEC39103-Q",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [1,7,13],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+
+	{
+		"nome": "Geometria Analítica [Q]",
+		"codigo": "FAMAT39108-Q",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [2,8,29,35],
+		"cargaHorariaTeorica":60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+
+	 {
+		"nome": "Introdução à Engenharia Química [Q]",
+		"codigo": "FEQUI31001-Q",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [26,32,15,21],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+
+	
+	{
+		"nome": "Química Geral [Q]",
+		"codigo": "IQUFU39009-Q",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [3,9],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+
+	{
+		"nome": "Química Geral Experimental",
+		"codigo": "IQUFU39001",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [4,10],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [16,22],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [46,52],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Álgebra Linear [Q]",
+		"codigo": "FAMAT39002-Q",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [59,65,71],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Cálculo Diferencial e Integral II [Q]",
+		"codigo": "FAMAT39004-Q",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [43,49,69,75,46,52],
+		"cargaHorariaTeorica":90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Estatística [Q]",
+		"codigo": "FAMAT39005-Q",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [68,74,58,64],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Física Geral I [Q]",
+		"codigo": "INFIS39001-Q",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [56,62,47,53],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Física Geral Experimental I",
+		"codigo": "INFIS39002",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [55,61],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [67,73],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [3,9],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}	
+	{
+		"nome": "Química Inorgânica [Q]",
+		"codigo": "IQUFU39002-Q",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [44,50,70,76],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Química Inorgânica Experimental",
+		"codigo": "IQUFU39003",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [15,21],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [45,51],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [57,63],
+			"selected": false
+		}	
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Balanço de Massa e Energia [Q]",
+		"codigo": "FEQUI31002-Q",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [14,20,5,11],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Cálculo Diferencial e Integral III [Q]",
+		"codigo": "FAMAT39006-Q",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [1,7,26,32,29,35],
+		"cargaHorariaTeorica": 90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+	{
+		"nome": "Cálculo Numérico [Q]",
+		"codigo": "FAMAT39007-Q",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [25,31,21,27,33],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 15,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+     }	
+		{
+		"nome": "Física Geral II [Q]",
+		"codigo": "INFIS39303-Q",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [3,9,18,24],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}	
+		{
+		"nome": "Física Geral Experimental II",
+		"codigo": "INFIS39004",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [4,10],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [16,22],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [28,34],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}		
+	  {
+	    "nome": "Química Orgânica I [Q]",
+		"codigo": "IEUFU39904-Q",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [13,19,2,8],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}			
+	  {
+	    "nome": "Mecânica dos Materiais [Q/U]",
+		"codigo": "FECIV39005-Q/U",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [68,74,58,64],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+		}
+	  {
+		"nome": "Química Analítica [Q/U]",
+		"codigo": "IQUFU39005-Q/U",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [46,52,47,53],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	  }		
+		{
+		"nome": "Química Analítica Experimental",
+		"codigo": "IQUFU39006",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 45,
+		"labs": [{
+			"nome": "A",
+			"horarios": [15,21,27],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [45,51,57],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [63,69,75],
+			"selected": false
+		}],		
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}	
+		{
+	    "nome": "Química Orgânica II - Q",
+		"codigo": "IQUFU39007",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [70,76,59,65],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+		}	
+		{
+	    "nome": "Química Orgânica II - U",
+		"codigo": "IQUFU39007",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [56,62,71,77],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+		}		
+	    {
+	    "nome": "Química Orgânica Experimental",
+		"codigo": "IQUFU39008",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [1,7],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [13,19],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [25,31],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [43,49],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [55,61],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [67,73],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}		
+	  {
+	    "nome": "Termodinâmica Química I - Q",
+		"codigo": "FEQUI39003",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [56,62,71,77],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}
+    {
+	    "nome": "Termodinâmica Química I - U",
+		"codigo": "FEQUI39003",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [44,50,69,65],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/quimica.png",
+		"curso": "Engenharia Química"
+	}	
+
+
+

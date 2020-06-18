@@ -1,0 +1,1445 @@
+﻿
+	{
+		"nome": "Algorítmos e Prog. de Computadores",
+		"codigo": "FACOM49010",
+		"periodo": "1",
+		"obrigatoria": true,
+		"horarios": [17,23,29],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [43,49],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Cálculo Diferencial e Integral 1",
+		"codigo": "FAMAT49010",
+		"periodo": "1",
+		"obrigatoria": true,
+		"horarios": [1,2,3,7,8,9],
+		"cargahorariaTeorica": 90,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Geometria Analítica",
+		"codigo": "FAMAT49011",
+		"periodo": "1",
+		"obrigatoria": true,
+		"horarios": [4,5,10,11],
+		"cargahorariaTeorica": 75,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	 {
+		"nome": "Desenho Técnico",
+		"codigo": "FEMEC41011",
+		"periodo": "1",
+		"obrigatoria": true,
+		"horarios": [13,19,25],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Introdução a Eng. Mecatrônica",
+		"codigo": "FEMEC42010",
+		"periodo": "1",
+		"obrigatoria": true,
+		"horarios": [16,22],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [14,20],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Educação para o Meio Ambiente",
+		"codigo": "IGUFU49010",
+		"periodo": "1",
+		"obrigatoria": true,
+		"horarios": [28, 34],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"curso": "Engenharia Mecatrônica",
+		"color": []		
+     	}
+	 {
+		"nome": "Química Básica",
+		"codigo": "IQUFU49011",
+		"periodo": "1",
+		"obrigatoria": true,
+		"horarios": [15,21,27],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [44,50],
+			"selected": false
+		},
+		{
+			"nome": "VC/VD",
+			"horarios": [56,62],
+			"selected": false
+		},
+		{
+			"nome": "VE",
+			"horarios": [68,74],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Cálculo Diferencial e Integral 2",
+		"codigo": "FAMAT49020",
+		"periodo": "2",
+		"obrigatoria": true,
+		"horarios": [55, 61, 44, 50, 45, 51],
+		"cargahorariaTeorica": 90,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": "Cálculo Diferencial e Integral 1",
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Estatística",
+		"codigo": "FAMAT49021",
+		"periodo": "2",
+		"obrigatoria": true,
+		"horarios": [58, 64, 47, 53],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Álgebra Linear",
+		"codigo": "FAMAT49022",
+		"periodo": "2",
+		"obrigatoria": true,
+		"horarios": [56, 62, 68],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": "Cálculo Diferencial e Integral 1",
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Programação Aplicada a Eng.",
+		"codigo": "FEMEC41020",
+		"periodo": "2",
+		"obrigatoria": true,
+		"horarios": [],
+		"cargahorariaTeorica": 0,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "UA",
+			"horarios": [4,10],
+			"selected": false
+		},
+		{
+			"nome": "UB",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{
+			"nome": "UC",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "UD",
+			"horarios": [15, 21],
+			"selected": false
+		}
+		],
+
+		"preRequisitos": "Algorítmos e Prog. de Computadores",
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Desenho de Máquinas",
+		"codigo": "FEMEC41021",
+		"periodo": "2",
+		"obrigatoria": true,
+		"horarios": [57, 63],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [26, 32],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [27, 33],
+			"selected": false
+		}	
+		],
+		"preRequisitos": ["Desenho Técnico"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Física Geral 1",
+		"codigo": "INFIS49020",
+		"periodo": "2",
+		"obrigatoria": true,
+		"horarios": [43, 49, 46, 52],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": ["Física Experimental 1"],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}		
+	{
+		"nome": "Física Experimental 1",
+		"codigo": "INFIS49021",
+		"periodo": "2",
+		"obrigatoria": true,
+		"horarios": [],
+		"cargahorariaTeorica": 0,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [28, 34],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": ["Física Geral 1"],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Cálculo Diferencial e Integral 3",
+		"codigo": "FAMAT49030",
+		"periodo": "3",
+		"obrigatoria": true,
+		"horarios": [1, 7, 14, 20, 3, 9],
+		"cargahorariaTeorica": 90,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": "Cálculo Diferencial e Integral 2",
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Cinemática",
+		"codigo": "FEMEC41030",
+		"periodo": "3",
+		"obrigatoria": true,
+		"horarios": [26, 32, 27, 33],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Introdução a Ciência dos Materiais",
+		"codigo": "FEMEC42031",
+		"periodo": "3",
+		"obrigatoria": true,
+		"horarios": [5, 11, 17],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [46, 52],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [70, 76],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "VE",
+			"horarios": [56, 62],
+			"selected": false
+		}
+		],
+	    "preRequisitos": ["Química Básica"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{	
+		"nome": "Projeto Assistido por Computador",
+		"codigo": "FEMEC42032",
+		"periodo": "3",
+		"obrigatoria": true,
+		"horarios": [29, 35],
+		"cargahorariaTeorica": 15,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [28, 34],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Desenho de Máquinas"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Física Geral 2",
+		"codigo": "INFIS49030",
+		"periodo": "3",
+		"obrigatoria": true,
+		"horarios": [25, 31, 2, 8, 15, 21],
+		"cargahorariaTeorica": 90,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Cálculo Diferencial e Integral 2"],
+		"coRequisitos": ["Física Experimental 2"],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+     }		
+	 {
+		"nome": "Física Experimental 2",
+		"codigo": "INFIS49031",
+		"periodo": "3",
+		"obrigatoria": true,
+		"horarios": [],
+		"cargahorariaTeorica": 0,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "UA",
+			"horarios": [70, 76],
+			"selected": false
+		},
+		{
+			"nome": "UB",
+			"horarios": [45, 51],
+			"selected": false
+		},
+		{
+			"nome": "UC",
+			"horarios": [46, 52],
+			"selected": false
+		},
+		{
+			"nome": "UD",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "UE",
+			"horarios": [59, 65],
+			"selected": false
+		}	
+		],	
+		"preRequisitos": ["Cálculo Diferencial e Integral 2"],
+		"coRequisitos": ["FÃ­sica Geral 1"],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	  }		
+	  {
+	    "nome": "Estática",
+		"codigo": "FECIV49032",
+		"periodo": "3",
+		"obrigatoria": true,
+		"horarios": [13, 19, 16, 22],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Física Geral 1"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+      }
+	{
+	    "nome": "Métodos Matemáticos Aplicados a Engenharia",
+		"codigo": "FAMAT49040",
+		"periodo": "4",
+		"obrigatoria": true,
+		"horarios": [43, 49, 55, 68, 74],
+		"cargahorariaTeorica": 75,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Cálculo Diferencial e Integral 3"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}	
+	{
+	    "nome": "Óptica",
+		"codigo": "INFIS49060",
+		"periodo": "4",
+		"obrigatoria": true,
+		"horarios": [44, 50],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+		}			
+	    {
+	    "nome": "Laboratório de Óptica",
+		"codigo": "INFIS49061",
+		"periodo": "4",
+		"obrigatoria": true,
+		"horarios": [],
+		"cargahorariaTeorica": 0,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [14, 20],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": ["Óptica"],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Dinâmica",
+		"codigo": "FEMEC41040",
+		"periodo": "4",
+		"obrigatoria": true,
+		"horarios": [45, 51, 47, 53],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Cinemática"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Metrologia",
+		"codigo": "FEMEC41041",
+		"periodo": "4",
+		"obrigatoria": true,
+		"horarios": [56, 62],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "VE",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{
+			"nome": "VF",
+			"horarios": [28, 34],
+			"selected": false
+		},
+		{
+			"nome": "VH",
+			"horarios": [5, 11],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Estatística"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+{
+	    "nome": "Eletrônica Básica para Mecatrônica",
+		"codigo": "FEMEC42041",
+		"periodo": "4",
+		"obrigatoria": true,
+		"horarios": [61, 67, 73, 69, 75],
+		"cargahorariaTeorica": 75,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [4, 10],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [15, 21],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [27, 33],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [3, 9],
+			"selected": false
+		}
+
+		],
+		"preRequisitos": ["Física Geral 2"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Mecânica dos Sólidos",
+		"codigo": "FEMEC31040",
+		"periodo": "4",
+		"obrigatoria": true,
+		"horarios": [57, 63, 59, 65, 71],
+		"cargahorariaTeorica": 75,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [1],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [7],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [13],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [19],
+			"selected": false
+		},
+		{
+			"nome": "VE",
+			"horarios": [25],
+			"selected": false
+		},
+		{
+			"nome": "VF",
+			"horarios": [31],
+			"selected": false
+		}
+		],
+	    "preRequisitos": ["Estática"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Arquitetura e Organização de Computadores I",
+		"codigo": "FACOM49050",
+		"periodo": "5",
+		"obrigatoria": true,
+		"horarios": [14, 20, 13, 19],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Cálculo Numérico",
+		"codigo": "FAMAT49050",
+		"periodo": "5",
+		"obrigatoria": true,
+		"horarios": [4, 10, 5, 11],
+		"cargahorariaTeorica": 75,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Métodos Matemáticos Aplicados a Engenharia"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Circuitos Elétricos p/ Mecatrônica",
+		"codigo": "FEELT49050",
+		"periodo": "5",
+		"obrigatoria": true,
+		"horarios": [1, 7, 3, 9],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [46, 52],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["FÍsica Geral 2"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+ 	{
+	    "nome": "Termodinâmica Aplicada",
+		"codigo": "FEMEC41051",
+		"periodo": "5",
+		"obrigatoria": true,
+		"horarios": [15, 21, 23, 17],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VC",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "VB/VD",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "VE/VF",
+			"horarios": [68, 74],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Materiais para Engenharia",
+		"codigo": "FEMEC42050",
+		"periodo": "5",
+		"obrigatoria": true,
+		"horarios": [28, 34],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [43, 49],
+			"selected": false
+			},
+			{
+			"nome": "VB",
+			"horarios": [55, 61],
+			"selected": false
+			},
+			{
+			"nome": "VC",
+			"horarios": [14, 20],
+			"selected": false
+			}
+			],
+		"preRequisitos": ["Introdução a Ciências dos Materiais"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Resistência dos Materiais",
+		"codigo": "FEMEC31050",
+		"periodo": "5",
+		"obrigatoria": true,
+		"horarios": [2, 8, 27, 33, 16, 22],
+		"cargahorariaTeorica": 90,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Mecânica dos Sólidos"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}	
+	{
+	    "nome": "Psicologia Aplicada ao Trabalho",
+		"codigo": "IPUFU49050",
+		"periodo": "5",
+		"obrigatoria": true,
+		"horarios": [26,32],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Sistemas Operacionais",
+		"codigo": "FACOM49060",
+		"periodo": "6",
+		"obrigatoria": true,
+		"horarios": [43, 49, 68, 74],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Arquitetura e Organização de Computadores I"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Transferência de Calor 1",
+		"codigo": "FEMEC41060",
+		"periodo": "6",
+		"obrigatoria": true,
+		"horarios": [67, 73, 69, 75],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "VC/VD",
+			"horarios": [13, 19],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Métodos Matemáticos Aplicados à Engenharia"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Dinâmica de Máquinas",
+		"codigo": "FEMEC41061",
+		"periodo": "6",
+		"obrigatoria": true,
+		"horarios": [55, 61, 57, 63],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Dinâmica"],
+		"coRequisitos": [],
+		"selected": false,	
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Sistemas de Controle Hidráulicos e Pneumáticos",
+		"codigo": "FEMEC41080",
+		"periodo": "6",
+		"obrigatoria": true,
+		"horarios": [58, 64, 70],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VC",
+			"horarios": [3, 9],
+			"selected": false
+		},
+		{
+			"nome": "VB/VD",
+			"horarios": [15, 21],
+			"selected": false
+		},
+		{
+			"nome": "VE/VF",
+			"horarios": [27, 33],
+			"selected": false
+		},
+		{
+			"nome": "VH",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "VI",
+			"horarios": [29, 35],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Controle de Sistemas Lineares",
+		"codigo": "FEMEC42060",
+		"periodo": "6",
+		"obrigatoria": true,
+		"horarios": [50, 44, 47, 53],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [14, 20],
+			"selected": false
+		},
+		{
+			"nome": "VC/VD",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{	"nome": "VE/VF",
+			"horarios": [2, 8],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Elementos de Construção Mecânica",
+		"codigo": "FEMEC42062",
+		"periodo": "6",
+		"obrigatoria": true,
+		"horarios": [45, 51, 46, 52],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Resistência dos Materiais"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Eletrônica Digital",
+		"codigo": "FEELT49040",
+		"periodo": "6",
+		"obrigatoria": true,
+		"horarios": [16, 22],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "VI",
+			"horarios": [25, 31],
+			"selected": false
+		},
+		{
+			"nome": "VE",
+			"horarios": [56, 62],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Arquitetura de Redes de Computadores",
+		"codigo": "FACOM49070",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [2, 8, 5, 11],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Arquitetura e Organização de Computadores I"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}	
+	{
+	    "nome": "Conversão de Energia e Máquinas Elétricas",
+		"codigo": "FEELT49070",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [14, 20, 17, 23],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [44, 50],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Circuitos Elétricos p/ Mecatrônica"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Mecânica dos Fluidos I",
+		"codigo": "FEMEC41050",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [19, 25, 26, 32],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [57, 63],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [69, 75],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [45, 51],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [71, 77],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Métodos Matemáticos Aplicados a Engenharia"],
+		"coRequisitos": [],
+		"selected": false,	
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Instrumentação",
+		"codigo": "FEMEC41070",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [53, 59, 65],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [55, 61],
+			"selected": false
+		},
+		{
+			"nome": "VC/VD",
+			"horarios": [67, 73],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": ["Eletrônica Básica para Mecatrônica"],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Controle Digital de Sistemas",
+		"codigo": "FEMEC42071",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [3, 9, 16, 22],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [70, 76],
+			"selected": false
+		},
+		{
+			"nome": "VC/VD",
+			"horarios": [46, 52],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Controle de Sistemas Linear"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}		
+	{
+	    "nome": "Processos de Fabricação Mecânica",
+		"codigo": "FEMEC42073",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [15, 21, 4, 10],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA/VB",
+			"horarios": [45, 51],
+			"selected": false
+		},
+		{
+			"nome": "VC/VD",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "VG/VH",
+			"horarios": [70, 76],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Bancos de Dados",
+		"codigo": "FACOM49080",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [44, 50, 45],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [51],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Algoritmos e Programação de Computadores"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Processamento Digital de Sinais",
+		"codigo": "FEELT49080",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [27, 33, 16, 22],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Sistemas Digitais para Mecatrônica",
+		"codigo": "FEELT49081",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [55, 61],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 30,
+		"labs": [{
+			"nome": "VD",
+			"horarios": [67, 73],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [67, 73],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Arquitetura e Organização de Computadores I"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Eletrônica de Potência para Mecatrônica",
+		"codigo": "FEMEC42080",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [56, 62, 46,52],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 15,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [3, 9],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [15, 21],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [27, 33],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [2, 8],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Eletrônica Básica para Mecatrônica", "Conversão de Energia e Máquinas Elétricas"],
+		"coRequisitos": [],
+		"selected": false,	
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Gestão dos Sistemas de Produção",
+		"codigo": "FEMEC42081",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [53, 59, 65],
+		"cargahorariaTeorica": 45,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}		
+	{
+		"nome": "Redes Industriais",
+		"codigo": "FEMEC42082",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [57, 63],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 15,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [14, 20],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [28, 34],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Arquitetura de Redes de Computadores "],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+		}
+		{
+		"nome": "Simulação de Sistemas Automatizados",
+		"codigo": "FEMEC42083",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [58, 64],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 15,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [28, 34],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [14, 20],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Estatística"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Administração",
+		"codigo": "FAGEN49090",
+		"periodo": "9",
+		"obrigatoria": true,
+		"horarios": [13, 19, 3, 9],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["1500 h"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Robótica",
+		"codigo": "FEMEC42094",
+		"periodo": "9",
+		"obrigatoria": false,
+		"horarios": [5, 11, 17],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 15,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [45, 51],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [57, 63],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Dinâmica de Máquinas"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Fabricação Assistida por Computador",
+		"codigo": "FEMEC41094",
+		"periodo": "9",
+		"obrigatoria": true,
+		"horarios": [14, 20],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Processos de Fabricação Mecânica"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Automação Industrial",
+		"codigo": "FEMEC42091",
+		"periodo": "9",
+		"obrigatoria": true,
+		"horarios": [15, 21],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "VC",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [56, 62],
+			"selected": false
+		}
+		],
+		"preRequisitos": ["Eletrônica Digital", "Sistemas de Controle Hidráulicos e Pneumáticos"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+	    "nome": "Instalações Elétricas Industriais",
+		"codigo": "FEMEC42092",
+		"periodo": "9",
+		"obrigatoria": true,
+		"horarios": [26, 32,4 , 10],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 00,
+		"labs": [],
+		"preRequisitos": ["Conversão de Energia e Máquinas Elétricas"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Projeto de Fim de Curso I",
+		"codigo": "FEMEC42093",
+		"periodo": "9",
+		"obrigatoria": true,
+		"horarios": [18, 24],
+		"cargahorariaTeorica": 30,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["2700 h"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}
+	{
+		"nome": "Economia",
+		"codigo": "IEUFU49090",
+		"periodo": "9",
+		"obrigatoria": true,
+		"horarios": [1, 7, 2, 8],
+		"cargahorariaTeorica": 60,
+		"cargahorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["1500 h"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+	}	
+	{
+		"nome": "Projeto de Fim de Curso II",
+		"codigo": "FEMEC42100",
+		"periodo": "10",
+		"obrigatoria": true,
+		"horarios": [24, 30],
+		"cargahorariaTeorica": 0,
+		"cargahorariaPratica": 30,
+		"labs": [],
+		"preRequisitos": ["Projeto de Fim de Curso I"],
+		"coRequisitos": [],
+		"selected": false,
+	    "imagem": "assets/img/icones-curso/mecatronica.png",
+		"color": [],
+		"curso": "Engenharia Mecatrônica"
+		}
+		
+
+
+

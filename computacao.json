@@ -1,0 +1,1441 @@
+
+	{
+		"nome": "Álgebra Matricial e GA [V]",
+		"codigo": "FAMAT39106-V",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [13, 19, 26, 32, 4, 10],
+		"cargaHorariaTeorica": 90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+
+	{
+		"nome": "Expressão Gráfica [V]",
+		"codigo": "FEMEC39101-V",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [25, 31, 28, 34],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+	    "curso":"Engenharia de Computação"
+	}
+
+	{
+		"nome": "Funções de Variáveis Reais I [V]",
+		"codigo": "FAMAT39107",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [1, 7, 2, 8, 3, 9],
+		"cargaHorariaTeorica":90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+	 {
+		"nome": "Química Geral",
+		"codigo": "IQUFU39102",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [14, 20],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [29, 35],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+
+	
+	{
+		"nome": "Int a Eng de Computação",
+		"codigo": "FEELT31103",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [15, 21],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+
+	{
+		"nome": "Int à Tecn da Computação",
+		"codigo": "FEELT31101",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [16, 22],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [68, 74],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [45, 51],
+			"selected": false
+		},
+		{
+			"nome": "VE",
+			"horarios": [57, 63],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+
+	{
+		"nome": "Estatística e Probabilidade [U]",
+		"codigo": "FAMAT39202-U",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [70, 76],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}	
+	{
+		"nome": "Funções de Variáveis Reais II [U]",
+		"codigo": "FAMAT39203",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [55, 61, 68, 74, 57, 63],
+		"cargaHorariaTeorica":90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+	{
+		"nome": "Métodos Numéricos [U]",
+		"codigo": "FAMAT39204",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [43, 49, 45, 51],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}	
+	{
+		"nome": "Mecânica dos Sólidos",
+		"codigo": "FEMEC39102",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [56, 62],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+	{
+		"nome": "Física I",
+		"codigo": "INFIS39201",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [44, 50, 69, 75],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": ["Física Experimental 1"],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}		
+		{
+		"nome": "Experimental de Física 1",
+		"codigo": "INFIS39202",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [13, 19],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [25, 31],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [46, 52],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [70, 76],
+			"selected": false
+		}		
+		],
+
+		"preRequisitos": [],
+		"coRequisitos": ["Física 1"],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+	{
+		"nome": "Métodos e Técnicas de Programação",
+		"codigo": "FEELT31202",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [67, 73],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 60,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [14, 20, 26, 32],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [15, 21, 27, 33],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [16, 22, 28, 34],
+			"selected": false
+		}	
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+
+	{
+		"nome": "Métodos Matemáticos",
+		"codigo": "FAMAT39301",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [13, 19, 14, 20, 15, 21],
+		"cargaHorariaTeorica": 90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+	{
+		"nome": "Circuitos Elétricos I [V]",
+		"codigo": "FEELT31301",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [27, 33, 16, 22, 28],
+		"cargaHorariaTeorica": 75,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}
+	{
+		"nome": "Física II",
+		"codigo": "INFIS39301",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [25, 31, 26, 32],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Física I"],
+		"coRequisitos": ["Física Experimental 2"],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+     }
+		{
+		"nome": "Experimental de Física II",
+		"codigo": "INFIS39302",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [68, 74],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [29, 35],
+			"selected": false
+		}		
+		],
+
+		"preRequisitos": [],
+		"coRequisitos": ["Física II"],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}		
+		{
+		"nome": "Experimental de Circuitos I",
+		"codigo": "FEELT31302",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A2",
+			"horarios": [43, 49],
+			"selected": false
+		},
+		{
+			"nome": "B2",
+			"horarios": [55, 61],
+			"selected": false
+		},
+		{
+			"nome": "C2",
+			"horarios": [67, 73],
+			"selected": false
+		},
+		{
+			"nome": "D2",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "E2",
+			"horarios": [56, 62],
+			"selected": false
+		}	
+		],
+
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}		
+	  {
+	    "nome": "Ciência e Tecnologia dos Materiais",
+		"codigo": "FEELT31303",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [1, 7, 2],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}		
+	  {
+	    "nome": "Experimental de Ciência e Tec. Materiais",
+		"codigo": "FEELT31304",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 15,
+		"labs": [{
+			"nome": "A",
+			"horarios": [8],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}		
+	  {
+	    "nome": "Sinais e Sistemas I [U]",
+		"codigo": "FEELT31306",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [5, 11],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}				
+	  {
+	    "nome": "Engenharia de Software",
+		"codigo": "FEELT31305",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [3, 9],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [4, 10],
+			"selected": true
+		}],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}		
+	  {
+	    "nome": "Exper. de Elet. Analógica I",
+		"codigo": "FEELT31402",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [3, 9],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [15, 21],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [27, 33],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [4, 10],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [28, 34],
+			"selected": false
+		},
+		{
+			"nome": "G",
+			"horarios": [2, 8],
+			"selected": false
+		},
+		{
+			"nome": "H",
+			"horarios": [14, 20],
+			"selected": false
+		},
+		{
+			"nome": "I",
+			"horarios": [26, 32],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	  {
+		"nome": "Circuitos Elétricos II [V]",
+		"codigo": "FEELT31403",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [44, 50, 46, 52],
+		"cargaHorariaTeorica": 75,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	  }	
+		{
+		"nome": "Experimental de Circuitos II",
+		"codigo": "FEELT31404",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [13, 19],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [25, 31],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [2, 8],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [14, 20],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [26, 32],
+			"selected": false
+		},
+		{
+			"nome": "G",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{
+			"nome": "H",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "I",
+			"horarios": [29, 35],
+			"selected": false
+		}
+		],		
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}		
+		{
+	    "nome": "Eletrônica Analógica I",
+		"codigo": "FEELT31401",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [45, 51, 43, 49],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}		
+	  {
+	    "nome": "Sinais e Sistemas II [U]",
+		"codigo": "FEELT31406-U",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [69, 75, 70, 76],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+	}				
+	    {
+	    "nome": "Eletromagnetismo",
+		"codigo": "FEELT31405",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [56, 62, 58, 64],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [29, 35],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}		
+	    {
+	    "nome": "Fenômenos de Transporte [U]",
+		"codigo": "FEQUI39401-U",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [67, 73, 68, 74],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}			
+	    {
+	    "nome": "Física III",
+		"codigo": "INFIS39401",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [55, 61, 57, 63],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	    {
+	    "nome": "Eletrônica Analógica II",
+		"codigo": "FEELT31501",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [13, 19],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}		
+	    {
+	    "nome": "Exper. de Elet. Analógica II",
+		"codigo": "FEELT31502",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "A",
+			"horarios": [46, 52],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [70, 76],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [5, 11],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	    {
+	    "nome": "Experimental Elet. Dig.",
+		"codigo": "FEELT31504",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [43, 49],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [55, 61],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [67, 73],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [68, 74],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	    {
+	    "nome": "Eletrônica Digital",
+		"codigo": "FEELT31503",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [16, 22],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}			
+	    {
+	    "nome": "Conversão de En. Elétrica e M.E.",
+		"codigo": "FEELT31511",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [14, 20, 17, 23],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,	
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	    {
+	    "nome": "Experimental Conversão Energ Elet",
+		"codigo": "FEELT31512",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [43, 49],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [55, 61],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [67, 73],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}	
+	    {
+	    "nome": "Linguagens Lógicas e Funcionais",
+		"codigo": "FEELT31513",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [25, 31, 29, 35],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	    {
+	    "nome": "Programaçao Orient. Objetos [UA]",
+		"codigo": "FEELT31514",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [26, 32, 28, 34],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+		{
+	    "nome": "Sistemas Realimentados",
+		"codigo": "FEELT31509",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [1, 7, 2, 8],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+		{
+	    "nome": "Exp. Sistemas Realimentados",
+		"codigo": "FEELT31510",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "A",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [68, 74],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [45, 51],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [57, 63],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [69, 75],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+		
+		{
+		"nome": "Sistemas Embarcados I",
+		"codigo": "FEELT31609",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [55, 61],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [
+		{
+			"nome": "UA",
+			"horarios": [4, 10],
+			"selected": false
+		},
+		{
+			"nome": "UB",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{
+			"nome": "UC",
+			"horarios": [28, 34],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}	
+
+	    {
+	    "nome": "Instalações Elétricas [U]",
+		"codigo": "FEELT31603-U",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [43, 49],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,	
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}	
+
+	    {
+	    "nome": "Sistemas Operacionais",
+		"codigo": "FEELT31608",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [56, 62, 46, 52],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+	    {
+	    "nome": "Exp. Instal Elétricas",
+		"codigo": "FEELT31604",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "A",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [13, 19],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [25, 31],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [2, 8],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [26, 32],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+		{
+		"nome": "Estrutura de Dados",
+		"codigo": "FEELT31611",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [68, 74, 70, 76],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}	
+
+	    {
+	    "nome": "Arq. e Organ. de Computadores",
+		"codigo": "FEELT31616",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [44, 50, 58, 64],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	
+		{
+		"nome": "Microprocessadores",
+		"codigo": "FEELT31602",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [55, 61],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [
+		{
+			"nome": "UB",
+			"horarios": [15, 21],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+	    {
+	    "nome": "Proj Interdisc. p/ Eng de Comp. ",
+		"codigo": "FEELT31707",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [28, 34],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}		
+
+	    {
+	    "nome": "Banco de Dados",
+		"codigo": "FEELT31708",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [27, 33],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}	
+
+	    {
+	    "nome": "Computação Gráfica",
+		"codigo": "FEELT31720",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [1, 7],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "UA",
+			"horarios": [16, 22],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,	
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+	    {
+	    "nome": "Compiladores",
+		"codigo": "FEELT39013",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [25, 32, 26, 32],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+		{
+		"nome": "Robótica",
+		"codigo": "FEELT31720",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [44, 50, 69, 75],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+		{
+		"nome": "Tóp. Especiais - Sistemas Inteligentes",
+		"codigo": "FEELT39016",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [3, 9],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "UA",
+			"horarios": [4, 10],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	
+		{
+	    "nome": "Periféricos e Interface",
+		"codigo": "FEELT31807",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [55, 61, 68, 74, 57],
+		"cargaHorariaTeorica": 75,
+		"cargaHorariaPratica": 15,
+		"labs": [
+		{
+			"nome": "UA",
+			"horarios": [63],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+    	}
+
+		{
+		"nome": "Inteligência Artificial",
+		"codigo": "FEELT31808",
+		"periodo": "8",
+		"obrigatoria": "true",
+		"horarios": [43, 49, 44, 50, 58, 64],
+		"cargaHorariaTeorica": 90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}	
+
+	    {
+	    "nome": "Redes de Computadores",
+		"codigo": "FEELT31809",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [13, 19, 14, 20],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}	
+
+	    {
+	    "nome": "Sistemas em Tempo Real",
+		"codigo": "FEELT31810",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [56, 62, 45],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 0,
+		"labs": [
+		{
+			"nome": "UA",
+			"horarios": [63],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+        {
+	    "nome": "Metrologia e Instrumentação",
+		"codigo": "FEELT31822",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [69, 75, 46, 52],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "UA/UD",
+			"horarios": [4, 10],
+			"selected": false
+		},
+		{
+			"nome": "UB/UE",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{	"nome": "UC/UF",
+			"horarios": [28, 34],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}		
+	  
+		{
+		"nome": "SEM TURMA",
+		"codigo": "TURMA00001",
+		"periodo": "9",
+		"obrigatoria": "true",
+		"horarios": [1],
+		"cargaHorariaTeorica": 15,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+	
+		{
+		"nome": "Estágio",
+		"codigo": "FEELT31001",
+		"periodo": "10",
+		"obrigatoria": "true",
+		"horarios": [79],
+		"cargaHorariaTeorica": 180,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+		"selected": false,
+		"curso":"Engenharia de Computação"
+		}
+	
+		{
+		"nome": "Transmissão em Corrente Contínua",
+		"codigo": "FEELT39007",
+		"periodo": "Opt",
+		"obrigatoria": "false",
+		"horarios": [57, 63, 70, 76],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [],
+		"imagem": "assets/img/icones-curso/computacao.png",
+        "curso":"Engenharia de Computação"
+		}
+
+

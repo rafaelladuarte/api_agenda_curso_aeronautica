@@ -1,0 +1,1442 @@
+
+
+
+	{
+		"nome": "Álgebra Matricial e GA [V]",
+		"codigo": "FAMAT39106-V",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [13, 19, 26, 32, 4, 10],
+		"cargaHorariaTeorica": 90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png", 
+		"imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+	{
+		"nome": "Expressão Gráfica [V]",
+		"codigo": "FEMEC39101-V",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [25, 31, 28, 34],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": "false",
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png", 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+    }
+
+	{
+		"nome": "Funções de Variáveis Reais I [V]",
+		"codigo": "FAMAT39107",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [1, 7, 2, 8, 3, 9],
+		"cargaHorariaTeorica":90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png", 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+     }
+
+	 {
+		"nome": "Química Geral",
+		"codigo": "IQUFU39102",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [14, 20],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios":
+ [29, 35],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png", 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+  	}
+
+	{
+		"nome": "Int a Eng Biomédica",
+		"codigo": "FEELT31103",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [15, 21],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png", 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+  	}
+
+	{
+		"nome": "Int à Tecn. da Computação",
+		"codigo": "FEELT31101",
+		"periodo": "1",
+		"obrigatoria": "true",
+		"horarios": [16, 22],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "VA",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "VB",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "VC",
+			"horarios": [68, 74],
+			"selected": false
+		},
+		{
+			"nome": "VD",
+			"horarios": [45, 51],
+			"selected": false
+		},
+		{
+			"nome": "VE",
+			"horarios": [57, 63],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png", 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+
+
+	{
+		"nome": "Anatomia Humana",
+		"codigo": "ICBIM39204",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [21, 27, 33],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 60,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [11, 17, 23, 29],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+	
+	{
+		"nome": "Funções de Variáveis Reais II [U]",
+		"codigo": "FAMAT39203",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [55, 61, 68, 74, 57, 63],
+		"cargaHorariaTeorica":90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+
+	{
+		"nome": "Bioquímica",
+		"codigo": "INGEB39302",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [47, 53, 59],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [65],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+	
+	{
+		"nome": "Mecânica dos Sólidos",
+		"codigo": "FEMEC39102",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [56, 62],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+
+	{
+		"nome": "Física I",
+		"codigo": "INFIS39201",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [44, 50, 69, 75],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": ["Física Experimental 1"],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+		
+		{
+		"nome": "Experimental de Física 1",
+		"codigo": "INFIS39202",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [13, 19],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [25, 31],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [46, 52],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [70, 76],
+			"selected": false
+		}		
+		],
+		"preRequisitos": [],
+		"coRequisitos": ["Física I"],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+
+	{
+		"nome": "Métodos e Técnicas de Programação",
+		"codigo": "FEELT31202",
+		"periodo": "2",
+		"obrigatoria": "true",
+		"horarios": [67, 73],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 60,
+		"labs": [{
+			"nome": "UA",
+			"horarios": [14, 20, 26, 32],
+			"selected": false
+		},
+		{
+			"nome": "UB",
+			"horarios": [15, 21, 27, 33],
+			"selected": false
+		},
+		{
+			"nome": "UC",
+			"horarios": [16, 22, 28, 34],
+			"selected": false
+		}	
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+
+
+
+	{
+		"nome": "Métodos Matemáticos",
+		"codigo": "FAMAT39301",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [13, 19, 14, 20, 15, 21],
+		"cargaHorariaTeorica": 90,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+
+	{
+		"nome": "Circuitos Elétricos I [X]",
+		"codigo": "FEELT31301",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [27, 33, 16, 22, 28],
+		"cargaHorariaTeorica": 75,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+
+	{
+		"nome": "Física II",
+		"codigo": "INFIS39301",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [25, 31, 26, 32],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": ["Física I"],
+		"coRequisitos": ["Física Experimental 2"],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+     }
+		
+		{
+		"nome": "Experimental de Física II",
+		"codigo": "INFIS39302",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [68, 74],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [29, 35],
+			"selected": false
+		}		
+		],
+
+		"preRequisitos": [],
+		"coRequisitos": ["Física II"],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+		
+		{
+		"nome": "Experimental de Circuitos I",
+		"codigo": "FEELT31302",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A1/A2",
+			"horarios": [43, 49],
+			"selected": false
+		},
+		{
+			"nome": "B1/B2",
+			"horarios": [55, 61],
+			"selected": false
+		},
+		{
+			"nome": "C1/C2",
+			"horarios": [67, 73],
+			"selected": false
+		},
+		{
+			"nome": "D1/D2",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "E1/E2",
+			"horarios": [56, 62],
+			"selected": false
+		}	
+		],
+
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+		
+	  {
+	    "nome": "Ciência e Tecnologia dos Materiais",
+		"codigo": "FEELT31303",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [1, 7, 2],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+		
+	  {
+	    "nome": "Experimental de Ciência e Tec. Materiais",
+		"codigo": "FEELT31304",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 15,
+		"labs": [{
+			"nome": "A",
+			"horarios": [8],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+		
+	    {
+	    "nome": "Engenharia de Software",
+		"codigo": "FEELT31305",
+		"periodo": "3",
+		"obrigatoria": "true",
+		"horarios": [3, 9],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [4, 10],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}		
+	
+	    {
+	    "nome": "Exper. de Elet. Analógica I",
+		"codigo": "FEELT31402",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [3, 9],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [15, 21],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [27, 33],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [4, 10],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [16, 22],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [28, 34],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+	  {
+		"nome": "Circuitos Elétricos II [U]",
+		"codigo": "FEELT31403",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [44, 50, 46, 52],
+		"cargaHorariaTeorica": 75,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	  }
+		
+		{
+		"nome": "Experimental de Circuitos II",
+		"codigo": "FEELT31404",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [13, 19],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [25, 31],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [2, 8],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [14, 20],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [26, 32],
+			"selected": false
+		},
+		{
+			"nome": "G",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{
+			"nome": "H",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "I",
+			"horarios": [29, 35],
+			"selected": false
+		}
+		],		
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	    }
+		
+		{
+	    "nome": "Eletrônica Analógica I",
+		"codigo": "FEELT31401",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [45, 51, 43, 49],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Biofísica",
+		"codigo": "ICBIM39403",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [53, 59],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [65, 71],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+	}
+				
+	    {
+	    "nome": "Eletromagnetismo",
+		"codigo": "FEELT31405",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [56, 62, 58, 64],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [29, 35],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Fenômenos de Transporte [U]",
+		"codigo": "FEQUI39401-U",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [67, 73, 68, 74],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+				
+	    {
+	    "nome": "Física III",
+		"codigo": "INFIS39401",
+		"periodo": "4",
+		"obrigatoria": "true",
+		"horarios": [55, 61, 57, 63],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+	    {
+	    "nome": "Eletrônica Analógica II",
+		"codigo": "FEELT31501",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [13, 19],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Exper. de Elet. Analógica II",
+		"codigo": "FEELT31502",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "A",
+			"horarios": [46, 52],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [58, 64],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [70, 76],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [5, 11],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [17, 23],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [29, 35],
+			"selected": false
+		}
+		],
+	    "preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+	    {
+	    "nome": "Experimental Elet. Dig.",
+		"codigo": "FEELT31504",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [43, 49],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [55, 61],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [67, 73],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [44, 50],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "F",
+			"horarios": [68, 74],
+			"selected": false
+		},
+		{
+			"nome": "G",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "H",
+			"horarios": [13, 19],
+			"selected": false
+		},
+		{
+			"nome": "I",
+			"horarios": [25, 31],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+	    {
+	    "nome": "Eletrônica Digital",
+		"codigo": "FEELT31503",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [16, 22],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+				
+	    {
+	    "nome": "Conversão de En. Elétrica e M.E.",
+		"codigo": "FEELT31511",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [14, 20, 17, 23],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+	    {
+	    "nome": "Experimental Conversão Energ Elet",
+		"codigo": "FEELT31512",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [{
+			"nome": "A",
+			"horarios": [43, 49],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [55, 61],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [67, 73],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [56, 62],
+			"selected": false
+		},
+		{
+			"nome": "E",
+			"horarios": [68, 74],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Bioestatística",
+		"codigo": "FAMAT39503",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [1, 7, 2, 8],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Projeto Interdisciplinar",
+		"codigo": "FEELT39503",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [15, 21],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+		{
+	    "nome": "Fisiologia",
+		"codigo": "ICBIM39503",
+		"periodo": "5",
+		"obrigatoria": "true",
+		"horarios": [51, 57, 63, 65],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [53, 59],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+		{
+		"nome": "Sinais e Sistemas Eng Biomédica",
+		"codigo": "FEELT31610",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [55, 61, 69, 75],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 60,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [46, 52, 58, 64],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Biomecânica",
+		"codigo": "FAEFI39601",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [15, 21, 27],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 15,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [33],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,	
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+        {
+	    "nome": "Instalações Elétricas [U]",
+		"codigo": "FEELT31603",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [43, 49],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+	
+        {
+	    "nome": "Exp. Instal Elétricas",
+		"codigo": "FEELT31604",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [],
+		"cargaHorariaTeorica": 0,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "A",
+			"horarios": [1, 7],
+			"selected": false
+		},
+		{
+			"nome": "B",
+			"horarios": [13, 19],
+			"selected": false
+		},
+		{
+			"nome": "C",
+			"horarios": [25, 31],
+			"selected": false
+		},
+		{
+			"nome": "D",
+			"horarios": [2, 8],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Proc. de Sinais Biomédicos",
+		"codigo": "FEELT31612",
+		"periodo": "6",
+		"obrigatoria": "true",
+		"horarios": [67, 73, 57, 63],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+		{
+		"nome": "Administração",
+		"codigo": "FAGEN39901",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [13, 19, 15, 21],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Biomateriais e Próteses ",
+		"codigo": "FEELT31619",
+		"periodo": "7",
+		"obrigatoria": true,
+		"horarios": [2, 8, 14],
+		"cargaHorariaTeorica": 45,
+		"cargaHorariaPratica": 15,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [20],
+			"selected": false
+		}
+		],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Interface Homem Máq. em Saúde",
+		"codigo": "FEELT31620",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [3, 9, 4, 10],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Imagens Médicas 1",
+		"codigo": "FEELT31621",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [25, 31, 27, 33],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,	
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Metrologia em Saúde",
+		"codigo": "FEELT31622",
+		"periodo": "7",
+		"obrigatoria": "true",
+		"horarios": [16, 22, 28, 34],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+		{
+	    "nome": "Instrumentação Biomédica 1",
+		"codigo": "FEELT31806",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [44, 50, 46, 52],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [58, 64],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+		{
+		"nome": "Engenharia Clínica 1",
+		"codigo": "FEELT31826",
+		"periodo": "8",
+		"obrigatoria": "true",
+		"horarios": [55, 61, 56, 62],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Telemedicina",
+		"codigo": "FEELT31823",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [67, 73, 68, 74],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+	    {
+	    "nome": "Imagens Médicas 2",
+		"codigo": "FEELT31824",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [69, 75, 70, 76],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+	
+        {
+	    "nome": "Gestão de Resíduos Hospitalares",
+		"codigo": "FEELT31825",
+		"periodo": "8",
+		"obrigatoria": true,
+		"horarios": [51, 57],
+		"cargaHorariaTeorica": 30,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}		
+
+		{
+	    "nome": "Instrumentação Biomédica 2",
+		"codigo": "FEELT31806",
+		"periodo": "9",
+		"obrigatoria": true,
+		"horarios": [13, 19, 15, 21],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 30,
+		"labs": [
+		{
+			"nome": "VA",
+			"horarios": [27, 33],
+			"selected": false
+		}],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+
+		{
+		"nome": "Ciências Sociais e Jurídicas",
+		"codigo": "FADIR39901",
+		"periodo": "9",
+		"obrigatoria": "true",
+		"horarios": [25, 31, 26, 32],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+		{
+	    "nome": "Ciências Econômicas",
+		"codigo": "IEUFU39901",
+		"periodo": "9",
+		"obrigatoria": "true",
+		"horarios": [3, 9, 5, 11],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+		{
+	    "nome": "Aval. de Tecnologia em Saúde",
+		"codigo": "FEELT31907",
+		"periodo": "9",
+		"obrigatoria": "true",
+		"horarios": [4, 10, 16, 17],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+	
+        {
+		"nome": "Engenharia Clínica 2",
+		"codigo": "FEELT31909",
+		"periodo": "9",
+		"obrigatoria": "true",
+		"horarios": [14, 20, 22, 28],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+				
+		
+	
+		{
+		"nome": "Estágio Supervisionado",
+		"codigo": "FEELT31005",
+		"periodo": "10",
+		"obrigatoria": "true",
+		"horarios": [71, 77],
+		"cargaHorariaTeorica": 180,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false
+		}
+		{
+		"nome": "Tec. Avanç em Inst. Biomédica (STR)",
+		"codigo": "FEELT39031",
+		"periodo": "X",
+		"obrigatoria": "false",
+		"horarios": [56, 62, 45, 51],
+		"cargaHorariaTeorica": 60,
+		"cargaHorariaPratica": 0,
+		"labs": [],
+		"preRequisitos": [],
+		"coRequisitos": [],
+		"selected": false,
+		"color": [], 
+        "imagem": "assets/img/icones-curso/aeronautica.png",
+        "curso":"Engenharia Biomédica"
+		}
+		
+		
+		
+
+
