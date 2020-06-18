@@ -1,0 +1,95 @@
+<div ng-if="!loggedIn">
+  Faça seu <span ng-click="openLogin()" style="text-decoration:underline; color:#3498DB; cursor:pointer">login</span> para ter acesso as suas matérias!<br>
+   Se você nao tiver uma conta <span ng-click="openRegister()" style="text-decoration:underline; color:#3498DB; cursor:pointer">registre-se</span> <br>
+</div>
+
+ <div class="btn-group" uib-dropdown is-open="status.isopen" ng-if="loggedIn">
+      <button align="middle" style="width:100%;height:100%;" id="single-button" type="button" class="btn btn-info" uib-dropdown-toggle ng-disabled="disabled">
+        
+        {{nomeDoCurso}} 
+
+        <span class="caret"></span>
+      </button>
+
+      <ul class="dropdown-menu" uib-dropdown-menu aria-labelledby="simple-dropdown">
+        <li ng-repeat="choice in items">
+          <a href ng-click="mudaCurso(choice.curso)">{{choice.curso}} <img ng-src="{{choice.logo}}" style="width:20px;height:20px;" align="middle"/> </a>
+        </li>
+      </ul>
+      
+      </div>
+<br><br>
+
+<div class="row" ng-if="loggedIn && !mostraPagina">
+  <div class="col-lg-12 col-md-12 col-sm-12"
+       ba-panel
+       ba-panel-title="Suas Matérias">
+
+      
+      
+         <div class="row">
+            Selecione seu curso para poder seguir sua grade
+         </div>
+ </div>
+</div>
+
+
+<div class="row" ng-if="loggedIn && mostraPagina">
+  <div class="col-lg-12 col-md-12 col-sm-12"
+       ba-panel
+       ba-panel-title="Suas Matérias">
+
+      
+      
+         <div class="row">
+
+
+
+          <div class="col-sm-2 com-md-2" ng-repeat="tab in tabs">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+               {{tab.title}}
+              </div>
+              <div class="panel-body" style="
+                              padding-top: 0px;
+                              padding-right: 0px;
+                              padding-left: 0px;
+                              padding-bottom: 0px;
+                          ">
+                  
+                  <div class="list-group" ng-repeat="materia in tab.content track by $index" style="margin-bottom: 0px !important">
+                    
+                    <a class="list-group-item" ng-click="adiciona(materia); calcula()" ng-style="functionThatReturnsStyle(materia)" style="margin-bottom: 0px; cursor:pointer"  uib-popover-template="dynamicPopover.templateUrl" popover-title="Pré-requisitos"  popover-trigger="mouseenter" popover-placement="right-top" >
+
+                       <script type="text/ng-template" id="myPopoverTemplate.html">
+                          <div ng-repeat="requisitos in materia.preRequisitos"> {{requisitos}};<br></div>
+                       
+                      </script>
+                      
+                       {{materia.nome}}
+                    </a>
+                    
+                 </div>
+
+            
+
+                    
+        </div>
+      </div>
+  </div>
+
+    <div class="col-sm-4">
+
+        <h2>Progresso</h2>
+
+        Materias Obrigatórias
+        {{feitas}}/{{total}}<uib-progressbar animate="false" max="100" value="percentualMateriasFeitas" type="success"><b>{{percentualMateriasFeitas | number:2 }}%</b></uib-progressbar>
+
+        Horas de Matérias Optativas {{horastotaisOpt}}/180
+        <uib-progressbar animate="false" max="100" value="percentualHorasOptativasFeitas" type="info"><b>{{percentualHorasOptativasFeitas | number:2 }}%</b></uib-progressbar>
+
+        Horas Totais Cumpridas {{horasselecionadas}}/{{horastotais}}
+        <uib-progressbar animate="false" max="100" value="percentualHorasFeitas" type="danger"><b>{{percentualHorasFeitas | number:2 }}%</b></uib-progressbar>
+
+      </div>
+</div>

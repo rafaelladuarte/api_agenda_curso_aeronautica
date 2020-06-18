@@ -1,0 +1,76 @@
+
+
+
+
+<div class="row">
+  <div class="col-lg-12 col-md-12 col-sm-12"
+       ba-panel
+       ba-panel-title="Suas Agendas {{numeroAgendas}}/7"
+       ba-panel-class="medium-panel traffic-panel">
+    
+       <div class="row">
+
+        <div ng-if="!loggedIn">
+          Faça seu <span ng-click="openLogin()" style="text-decoration:underline; color:#3498DB; cursor:pointer">login</span> para ter acesso as suas agendas! <br>
+           Se você nao tiver uma conta <span ng-click="openRegister()" style="text-decoration:underline; color:#3498DB; cursor:pointer">registre-se</span> <br>
+        </div>
+
+          <div ng-if="loggedIn">
+          <div class="col-md-6 col-lg-3" ng-repeat="agenda in agendas track by $index">
+            <div class="panel panel-default contextual-example-panel bootstrap-panel">
+              <div class="panel-heading" style="background-color: #456A85;"><font size="4" color="white"> 
+                <span ui-sref="agenda({id: agenda._id})" style="cursor:pointer">{{agenda.nome}}</span></font>
+
+               <img ng-src="./assets/img/delete.png" ng-click="DeleteAgenda(agenda)" style="width:20px;height:20px; margin-left:4px; cursor:pointer" align="right">
+               <img ng-src="./assets/img/foward.png" ng-click="ShareAgenda(agenda)" style="width:20px;height:20px;cursor:pointer" align="right">
+               
+              </div>
+
+              <div class="panel-body" ui-sref="agenda({id: agenda._id})" style="cursor:pointer">
+                <b>Criado em:</b> {{agenda.createdAt | date}} <br>
+                  <b>Última Atualização:</b> {{agenda.updatedAt | date}}
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-3" ng-click="CreateAgenda()">
+                 <button type="button" class="btn btn-danger btn-lg" style="height:120px" ng-click="checkNumber()">Adicionar Agenda </button>
+          </div>
+
+         </div>
+
+
+      </div>
+
+  </div>
+</div>
+
+
+<div class="row" style="height:80px !important">
+  <div class="col-lg-12 col-md-12 col-sm-12"
+       ba-panel
+       ba-panel-title="Logs"
+
+       >
+    
+       <div class="row">
+
+          *SE O SEU CURSO NÃO CARREGAR, É PORQUE NÃO FOI IMPLEMENTADO AINDA, ESTAMOS TRABALHANDO O MAIS RÁPIDO POSSÍVEL* <br>
+          *não otimizado para celular*
+           <br> <br>
+
+          Site feito por F3 Soluções em Engenharia <br>
+          curta nossa página <a href="https://www.facebook.com/solucoesf3" target="_blank">https://www.facebook.com/solucoesf3</a><br><br>  
+
+          Agradecimentos: <br><br>
+
+          Olivio Neto: dados das matérias dos cursos e co-idealizador<br>
+          Lucas Borges: dados das matérias da engenharia química
+         
+
+
+      </div>
+
+  </div>
+</div>
+

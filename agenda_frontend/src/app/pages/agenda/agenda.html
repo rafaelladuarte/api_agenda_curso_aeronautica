@@ -1,0 +1,359 @@
+<div ng-if="!loggedIn">
+  Faça seu login para ter acesso as suas agendas!
+</div>
+
+<div class="row" ng-if="loggedIn">
+<div class="row" style="padding-left:30px">
+  
+      
+        <h2>{{nomeDaAgenda}} </h2>
+      
+ 
+</div>
+
+</br>
+
+<div class="row">
+<div class="container">
+<div class="col-xs-3">
+
+
+
+ <div class="btn-group" uib-dropdown is-open="status.isopen" style="width: 100%;">
+      <button id="single-button" type="button" class="btn btn-info" uib-dropdown-toggle ng-disabled="disabled"  style="width: 100%;">
+        
+        {{nomeDoCurso}} 
+
+        <span class="caret"></span>
+      </button>
+
+      <ul class="dropdown-menu" uib-dropdown-menu aria-labelledby="simple-dropdown">
+        <li ng-repeat="choice in items">
+          <a href ng-click="mudaCurso(choice.curso)">{{choice.curso}} <img ng-src="{{choice.logo}}" style="width:20px;height:20px;" align="middle"/> </a>
+        </li>
+      </ul>
+
+</div>
+
+<br><br>
+
+
+
+
+
+<uib-tabset active="active">
+    <uib-tab index="$index + 1" ng-repeat="tab in tabs" heading="{{tab.title}}" disable="tab.disabled" >
+        
+        <ul class="list-group"> 
+          
+          <div ng-repeat="materia in tab.content track by $index"  >
+            <div ng-click="adiciona(materia)" style="cursor:pointer" uib-popover-template="dynamicPopover.templateUrl" popover-title="Pré-requisitos"  popover-trigger="mouseenter" popover-placement="right-top">
+            <li class="list-group-item" ng-style="colorirMateriaSelecionada(materia)">
+                           
+                 <script type="text/ng-template" id="myPopoverTemplate.html">
+                    <div ng-repeat="requisitos in materia.preRequisitos"> {{requisitos}};<br></div>
+                 
+                </script>
+
+
+                {{materia.nome}}
+     
+              
+              </li>
+            </div>
+          </div>
+
+        </ul>
+
+    </uib-tab>
+   
+  </uib-tabset>
+
+
+
+
+ <h4 style=" text-align: center;"> {{materiasEscolhidas.length}} Matérias Selecionadas</h4> 
+  <div ng-repeat="coisa in materiasEscolhidas track by $index" >
+  <li class="list-group-item">
+
+
+   
+    <span class="badge" style = "background: red; cursor:pointer" ng-click="deleta(coisa)">X</span>
+    <span class="badge" style = "background: white">
+ 
+   <input colorpicker ng-model="coisa.color" style="width: 18px;height: 18px; background-color: {{coisa.color}};cursor:pointer" colorpicker-with-input="true" type="input" class="small button" ng-change="atribuiCor(coisa,coisa.color)"> 
+
+<!--     <input class="jscolor" ng-model="coisa.cor" style="width: 18px;height: 18px; background-color: {{coisa.cor}};" value="ab2567" ng-change="atribuiCor(coisa,coisa.cor)"> -->
+   
+    </span>
+    
+
+    {{coisa.nome}}
+
+
+    <img ng-src="{{coisa.imagem}}" style="width:20px;height:20px;"/>
+
+    <br>
+    
+    
+    <div ng-repeat="pratica in coisa.labs" style="display:inline-block">
+        <!-- <td><input type="radio" ng-model="checkpoint.selectedOption" value="pass"  name="selectedOption{{$index}}"></td> -->
+    
+      <input  type="radio" ng-model="pratica.selectedId" ng-value="pratica._id" ng-change="printapratica(pratica,coisa)"> {{pratica.nome}} &nbsp;
+
+<!-- 
+      <input  type="radio" name="aulas{{$parent.$index}}" id="{{pratica.nome}}" ng-model="$parent.aulas" ng-value="pratica" ng-change="printapratica(pratica,coisa)"> {{pratica.nome}} &nbsp; -->
+    
+      <!-- <input type="radio" ng-value="format.title" ng-model="item.selectedRadio" name="myName{{$parent.$index}}"/> -->
+
+
+
+       <!-- <td ng-class="{'success':contact.isPrimary}">
+                    <input type="radio" name="radio-primary" ng-value="true" ng-model="contact.isPrimary" ng-checked="contact.isPrimary" ng-change="UpdatePrimary(contact)" />
+                </td> -->
+
+    </div>
+  </li>
+
+</div>
+</ul>
+
+<div style="box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.3);padding-left:10px;padding-right:10px;border-radius: 25px;">
+   
+   <div class="col-xs-12 col-md-12 row"  style="text-align: center;margin-top:5px;margin-bottom:5px;vertical-align:middle;padding:0;width:100%;border-top:1px solid #EAEAEA; padding-top:10px;margin:auto">
+
+  <div class="col-xs-4" style="border-right:1px solid #eaeaea;text-align:center;padding:0;margin:0">
+    Teórica </br>
+  <p id='printaChTeorica'></p>
+
+  </div>
+  <div class="col-xs-4" style="text-align:center;padding:0;margin:0">
+   Prática </br> 
+   <p id='printaChPratica'></p>
+  </div>
+  <div class="col-xs-4" style="border-left:1px solid #eaeaea;text-align:center;padding:0;margin:0">
+   Total </br> {{chTeoricaFinal  + chPraticaFinal}} 
+  </div>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>  
+
+
+
+
+
+<div class="col-xs-9">
+
+<div class="check-element animate-show" ng-show="erros()">
+        <div class="alert alert-danger" role="alert"> <font color="#B94E7B">Você possui mais de uma matéria no mesmo horário! A celula esta demarcada</font></div>
+ 
+</div>
+   
+<div class="check-element animate-show" ng-show="erros_pratica()">
+        <div class="alert alert-danger" role="alert"> <font color="#B94E7B">Você não selecionou a prática de alguma matéria!</font></div>
+ 
+</div>
+
+
+
+ <table class="table table-bordered" id="tabelation">
+     <tr style = " background: #666; color: white;">
+        <td id = "indicador">Horários</td>
+        <td>Seg</td> 
+        <td>Ter</td>
+        <td>Qua</td> 
+        <td>Qui</td>
+        <td>Sex</td> 
+        <td>Sáb</td>
+      </tr>
+      <tr>
+        <td id = "indicador">7:10-8:00</td>
+        <td id = "td1" class= "miolo"></td> 
+        <td id = "td2" class= "miolo"></td>
+        <td id = "td3" class= "miolo"></td> 
+        <td id = "td4" class= "miolo"></td>
+        <td id = "td5" class= "miolo"></td> 
+        <td id = "td6" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td  id = "indicador" >8:00-8:50</td>
+        <td id = "td7" class= "miolo"></td> 
+        <td id = "td8" class= "miolo"></td>
+        <td id = "td9" class= "miolo"></td> 
+        <td id = "td10" class= "miolo"></td> 
+        <td id = "td11" class= "miolo"></td>
+        <td id = "td12" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td  id = "indicador">8:50-9:40</td>
+        <td id = "td13" class= "miolo"></td> 
+        <td id = "td14" class= "miolo"></td>
+        <td id = "td15" class= "miolo"></td> 
+        <td id = "td16" class= "miolo"></td> 
+        <td id = "td17" class= "miolo"></td>
+        <td id = "td18" class= "miolo"></td>  
+      </tr>
+           <tr>
+        <td id = "indicador">9:50-10:40</td>
+        <td id = "td19" class= "miolo"></td> 
+        <td id = "td20" class= "miolo"></td>
+        <td id = "td21" class= "miolo"></td> 
+        <td id = "td22" class= "miolo"></td> 
+        <td id = "td23" class= "miolo"></td>
+        <td id = "td24" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td id = "indicador">10:40-11:30</td>
+        <td id = "td25" class= "miolo"></td> 
+        <td id = "td26" class= "miolo"></td>
+        <td id = "td27" class= "miolo"></td> 
+        <td id = "td28" class= "miolo"></td> 
+        <td id = "td29" class= "miolo"></td>
+        <td id = "td30" class= "miolo"></td>  
+      </tr>
+           <tr>
+        <td id = "indicador">11:30-12:20</td>
+        <td id = "td31" class= "miolo"></td> 
+        <td id = "td32" class= "miolo"></td>
+        <td id = "td33" class= "miolo"></td> 
+        <td id = "td34" class= "miolo"></td> 
+        <td id = "td35" class= "miolo"></td>
+        <td id = "td36" class= "miolo"></td> 
+      </tr>
+
+      <tr style = " background: #1C2B36; height:10px">
+        <td style="height:10px"></td>
+        <td style="height:10px" id = "td37"></td> 
+        <td style="height:10px" id = "td38"></td>
+        <td style="height:10px" id = "td39"></td> 
+        <td style="height:10px" id = "td40"></td>
+        <td style="height:10px" id = "td41"></td>
+        <td style="height:10px" id = "td42"></td> 
+      </tr>
+
+           <tr>
+        <td id = "indicador">13:10-14:00</td>
+        <td id = "td43" class= "miolo"></td> 
+        <td id = "td44" class= "miolo"></td>
+        <td id = "td45" class= "miolo"></td> 
+        <td id = "td46" class= "miolo"></td> 
+        <td id = "td47" class= "miolo"></td>
+        <td id = "td48" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td id = "indicador">14:00-14:50</td>
+  <td id = "td49"></td> 
+        <td id = "td50" class= "miolo"></td>
+        <td id = "td51" class= "miolo"></td> 
+        <td id = "td52" class= "miolo"></td> 
+        <td id = "td53" class= "miolo"></td>
+        <td id = "td54" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td id = "indicador">14:50-15:40</td>
+  <td id = "td55"></td> 
+        <td id = "td56" class= "miolo"></td>
+        <td id = "td57" class= "miolo"></td> 
+        <td id = "td58" class= "miolo"></td> 
+        <td id = "td59" class= "miolo"></td>
+        <td id = "td60" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td id = "indicador">16:00-16:50</td>
+  <td id = "td61"></td> 
+        <td id = "td62" class= "miolo"></td>
+        <td id = "td63" class= "miolo"></td> 
+        <td id = "td64" class= "miolo"></td> 
+        <td id = "td65" class= "miolo"></td>
+        <td id = "td66" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td id = "indicador">16:50-17:40</td>
+  <td id = "td67"></td> 
+        <td id = "td68" class= "miolo"></td>
+        <td id = "td69" class= "miolo"></td> 
+        <td id = "td70" class= "miolo"></td> 
+        <td id = "td71" class= "miolo"></td>
+        <td id = "td72" class= "miolo"></td>  
+      </tr>
+           <tr>
+        <td id = "indicador">17:40-18:30</td>
+  <td id = "td73"></td> 
+        <td id = "td74" class= "miolo"></td>
+        <td id = "td75" class= "miolo"></td> 
+        <td id = "td76" class= "miolo"></td> 
+        <td id = "td77" class= "miolo"></td>
+        <td id = "td78" class= "miolo"></td>  
+      </tr>
+
+ <tr style = " background: #1C2B36; height:10px">
+       <td  style="height:10px"></td> 
+        <td  style="height:10px"></td>
+        <td  style="height:10px"></td> 
+        <td  style="height:10px"></td>
+        <td  style="height:10px"></td> 
+        <td  style="height:10px"></td>
+        <td  style="height:10px"></td> 
+         
+      </tr>
+
+           <tr>
+        <td id = "indicador">19:00-19:50</td>
+   <td id = "td79"></td>
+        <td id = "td80" class= "miolo"></td> 
+        <td id = "td81" class= "miolo"></td> 
+        <td id = "td82" class= "miolo"></td>
+        <td id = "td83" class= "miolo"></td> 
+        <td id = "td84" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td id = "indicador">19:50-20:40</td>
+   <td id = "td85"></td> 
+        <td id = "td86" class= "miolo"></td>
+        <td id = "td87" class= "miolo"></td> 
+        <td id = "td88" class= "miolo"></td> 
+        <td id = "td89" class= "miolo"></td>
+        <td id = "td90" class= "miolo"></td>
+      </tr>
+           <tr>
+        <td id = "indicador">20:50-21:40</td>
+  <td id = "td91"></td> 
+        <td id = "td92" class= "miolo"></td>
+        <td id = "td93" class= "miolo"></td> 
+        <td id = "td94" class= "miolo"></td> 
+        <td id = "td95" class= "miolo"></td>
+        <td id = "td96" class= "miolo"></td> 
+      </tr>
+           <tr>
+        <td id = "indicador">21:40-22:30</td>
+  <td id = "td97"></td> 
+        <td id = "td98" class= "miolo"></td>
+        <td id = "td99" class= "miolo"></td> 
+        <td id = "td100" class= "miolo"></td> 
+        <td id = "td101" class= "miolo"></td>
+        <td id = "td102" class= "miolo"></td>  
+      </tr>
+    </table>
+
+</div>
+
+</div>
+</div>
+</div>

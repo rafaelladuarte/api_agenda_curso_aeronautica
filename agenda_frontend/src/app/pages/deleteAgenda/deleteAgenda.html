@@ -1,0 +1,17 @@
+    <div class="ngdialog-message">
+        <div class="">
+            <h3> Voce tem certeza que quer deletar a agenda <font weight:"bold"> <i>{{nomeDaAgenda}}</i> </font> ?</h3> 
+
+        </div>
+        <div class="">&nbsp;</div>
+        <div class="">
+            <form name="createAgenda" ng-submit="doDeleteAgenda(idDaAgenda)">
+                           
+                <button type="submit" class="btn btn-info btn-sm">Deletar</button>
+                <button type="button" class="btn btn-default btn-sm" ng-click=closeThisDialog("Cancel")>Cancelar</button> 
+            </form>
+        </div>
+        <div>
+
+        </div>
+    </div>

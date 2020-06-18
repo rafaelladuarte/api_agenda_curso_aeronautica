@@ -1,0 +1,184 @@
+db.users.find().pretty()
+db.users.update({username:"admin1"},{$set:{admin:true}})
+
+{
+    "name": "hamburguer",
+    "image": "imgs/ham.jpg",
+    "category": "mains",
+    "label": "hot",
+    "price": "4.99",
+    "description": "best hamburguer in ttown"
+}
+
+
+{
+    "name": "pizza",
+    "image": "imgs/pizza.jpg",
+    "category": "mains",
+    "label": "hot",
+    "price": "10.67",
+    "description": "best pizza in georgia"
+}
+
+{
+        "nome": "Introdução a Eng. Aeronáutica",
+        "curso": "Engenharia Aeronáutica",
+        "codigo": "FEMEC43011",
+        "periodo": "1",
+        "obrigatoria": "true",
+        "horarios": [16,22,28],
+        "cargaHorariaTeorica": 45,
+        "cargaHorariaPratica": 0,
+        "labs": [],
+        "preRequisitos": [],
+        "coRequisitos": [],
+        "selected": false,
+        "color": [],
+        "imagem": "assets/img/icones-curso/aeronautica.png"
+
+}
+{
+        "nome": "Introdução a putaria",
+        "curso": "Engenharia Quimica",
+        "codigo": "FEMEC43011",
+        "periodo": "1",
+        "obrigatoria": "true",
+        "horarios": [16,22,28],
+        "cargaHorariaTeorica": 45,
+        "cargaHorariaPratica": 0,
+        "labs": [],
+        "preRequisitos": [],
+        "coRequisitos": [],
+        "selected": false,
+        "color": [],
+        "imagem": "assets/img/icones-curso/quimica.png"
+
+}
+    {
+            "nome": "Estatística",
+            "curso": "Engenharia Aeronáutica",
+            "codigo": "FAMAT49021",
+            "periodo": "2",
+            "obrigatoria": true,
+            "horarios": [58, 64, 47, 53],
+            "cargaHorariaTeorica": 60,
+            "cargaHorariaPratica": 0,
+            "labs": [],
+            "preRequisitos": [],
+            "coRequisitos": [],
+            "selected": false,
+            "color": [],
+            "imagem": "assets/img/icones-curso/aeronautica.png"
+    }
+
+{ 'get':    {method:'GET'},
+  'save':   {method:'POST'},
+  'query':  {method:'GET', isArray:true},
+  'remove': {method:'DELETE'},
+  'delete': {method:'DELETE'} };
+
+  575ef4bc231f74900292fa85
+  575ef4e5231f74900292fa86
+
+  {
+ "aula": "576aabbc449e248c32106ef8"
+}
+
+{
+        "nome": "Mecânica dos Sólidos",
+        "curso": "Engenharia Mecatrônica",
+        "codigo": "INFIS49040",
+        "periodo": "4",
+        "obrigatoria": true,
+        "horarios": [57, 63, 59, 65, 71],
+        "cargaHorariaTeorica": 75,
+        "cargaHorariaPratica": 15,
+        "labs": [{
+            "nome": "VA",
+            "horarios": [1],
+            "selected": false
+        },
+        {
+            "nome": "VB",
+            "horarios": [7],
+            "selected": false
+        },
+        {
+            "nome": "VC",
+            "horarios": [13],
+            "selected": false
+        },
+        {
+            "nome": "VD",
+            "horarios": [19],
+            "selected": false
+        },
+        {
+            "nome": "VE",
+            "horarios": [25],
+            "selected": false
+        },
+        {
+            "nome": "VF",
+            "horarios": [31],
+            "selected": false
+        }
+        ],
+        "preRequisitos": ["Estática"],
+        "coRequisitos": [],
+        "selected": false,
+        "imagem": "assets/img/icones-curso/mecatronia.png"
+        }
+
+
+
+        {
+        "nome": "Automação Industrial",
+        "codigo": "FEMEC42091",
+        "curso": "Engenharia Mecatrônica",
+        "periodo": "9",
+        "obrigatoria": true,
+        "horarios": [27, 33],
+        "cargaHorariaTeorica": 30,
+        "cargaHorariaPratica": 30,
+        "labs": [
+        {
+            "nome": "VC",
+            "horarios": [44, 50],
+            "selected": false
+        },
+        {
+            "nome": "VD",
+            "horarios": [56, 62],
+            "selected": false
+        }
+        ],
+        "preRequisitos": [],
+        "coRequisitos": [],
+        "selected": false,
+        "imagem": "assets/img/icones-curso/mecatronica.png"
+        }
+
+
+
+    {
+        "nome": "Banco de Dados",
+        "codigo": "FACOM49080",
+        "periodo": "Opt",
+        "curso": "Engenharia Aeronáutica",
+        "obrigatoria": false,
+        "horarios": [44, 45, 50],
+        "cargaHorariaTeorica": 45,
+        "cargaHorariaPratica": 15,
+        "labs": [
+        {
+            "nome": "VA",
+            "horarios": [51],
+            "selected": false
+        }
+        ],
+        "preRequisitos": [],
+        "coRequisitos": [],
+        "selected": false,
+        "imagem": "assets/img/icones-curso/aeronautica.png" 
+    }

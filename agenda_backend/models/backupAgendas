@@ -1,0 +1,28 @@
+var mongoose = require ('mongoose');
+var Schema = mongoose.Schema;
+
+var agendaSchema = new Schema({
+	user:{
+		type: mongoose.Schema.Types.ObjectId,
+        ref: 'User'
+	},
+	aulas: [{
+		type: mongoose.Schema.Types.ObjectId,
+        ref: 'Class'
+	}],
+	nome: {
+		type: String,
+		required: true,		
+	},
+	description:{
+		type: String,
+		required: false
+		
+	}
+},{
+		timestamps: true
+});
+
+var Agendas = mongoose.model('Agenda', agendaSchema);
+
+module.exports = Agendas;

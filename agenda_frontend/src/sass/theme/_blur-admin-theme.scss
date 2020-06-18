@@ -1,0 +1,113 @@
+.label {
+  border-radius: 0;
+}
+
+.label-primary {
+  background: $primary;
+}
+
+.label-info {
+  background: $primary-light;
+}
+
+.label-success {
+  background: $success;
+}
+
+.label-warning {
+  background: $warning;
+}
+
+.label-danger {
+  background: $danger;
+}
+
+div label input {
+   margin-right:100px;
+}
+
+#ck-button:hover {
+    background: #ebebe0 !important;
+
+}
+
+
+#ck-button:active {
+    background: #dcdada;
+}
+
+
+.materiaSelected {
+	background: green;
+}
+
+.materiaNotSelected{
+	background: #fff;
+}
+
+
+#indicador {
+	 background: #666;
+	 color: white;
+	 width: 120px;
+}
+
+.miolo {
+   color: black;
+   font-weight: bold;
+
+}
+
+#tabelation{
+	font: 13px arial, sans-serif;
+}
+
+th,td
+    {
+        margin: 0;
+        text-align: center;
+        border-collapse: collapse;
+        outline: 1px solid #e3e3e3;
+    }
+
+    td
+    {
+        padding: 5px 10px;
+    }
+
+    th
+    {
+        background: #666;
+        color: white;
+        padding: 5px 10px;
+    }
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.image {
+   display:  inline-block;
+}
+
+.image img {
+    -webkit-transition: all 0.5s ease; /* Safari and Chrome */
+    -moz-transition: all 0.5s ease; /* Firefox */
+    -o-transition: all 0.5s ease; /* IE 9 */
+    -ms-transition: all 0.5s ease; /* Opera */
+    transition: all 0.5s ease;
+}
+
+.image:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+
+#emlinha {
+  display:  inline-block;
+}

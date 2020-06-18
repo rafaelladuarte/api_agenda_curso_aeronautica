@@ -1,0 +1,39 @@
+    <div class="ngdialog-message">
+        <div class="" ng-show="podeCriar" >
+            <h3> Qual o nome da sua agenda? </h3> 
+
+        </div>
+        <div class="" ng-show="!podeCriar" >
+            <h3> Número máximo de agendas alcançado! </h3> 
+
+        </div>
+        <div class="">&nbsp;</div>
+        <div class="">
+            <form name="createAgenda" ng-submit="doCreateAgenda()" ng-show="podeCriar" >
+                <div class="form-group">
+                    <label class="sr-only" for="nome" >Nome</label>
+                      
+
+                    <input type="text" class="form-control input-sm" id="nome" placeholder="nome" ng-model="novaAgenda.nome" ng-minlength="1"  maxlength="15" required>
+
+                    <span ng-show="createAgenda.novaAgenda.nome.$error.required">Por favor, coloque um nome!</span>
+
+               
+                </div>
+
+                <button type="submit" class="btn btn-info btn-sm">Criar</button>
+                <button type="button" class="btn btn-default btn-sm" ng-click=closeThisDialog("Cancel")>Cancel</button> 
+            </form>
+        </div>
+      
+        <div ng-show="!podeCriar">
+            <form name="dummy">
+                Você já tem 7 agendas, delete alguma para poder criar uma nova. 
+             <br><br>
+            <button type="submit" class="btn btn-default btn-sm" ng-click=closeThisDialog("Cancel")>Fechar</button> 
+        </form>
+        </div>
+        <div>
+
+        </div>
+    </div>
